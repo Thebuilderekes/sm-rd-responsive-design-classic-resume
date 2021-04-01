@@ -13,28 +13,11 @@ function circularText(txt, radius, classIndex) {
 
   }
 
-
-// if 
-//        (screen.width <739) {
-
-//         circularText("NICE TO MEET YOU  NICE TO MEET YOU  NICE TO MEET YOU ", 50, 0);
-
-//        } else {
-
-//         circularText("NICE TO MEET YOU  NICE TO MEET YOU  NICE TO MEET YOU ", 90, 0);
-//        }
 circularText("NICE TO MEET YOU  NICE TO MEET YOU  NICE TO MEET YOU ", 90, 0); 
 
 
   
 
-  
-  // window.addEventListener('resize', functionName);
-
-
-
-    // circularText("NICE TO MEET YOU  NICE TO MEET YOU  NICE TO MEET YOU ", 90, 0);
-  
 
 
   
