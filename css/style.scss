@@ -14,8 +14,8 @@ html {
   width: 100%;
   overflow-x: hidden;
 
- overflow: auto!important;
-max-height: 100% !important;
+
+
 }
 
 
@@ -23,8 +23,6 @@ max-height: 100% !important;
 
 body {
 width: 100%;
-overflow: auto!important;
-max-height: 100% !important;
 overflow-x: hidden;
 }
  /*-----------------------------------------*/
@@ -1097,7 +1095,7 @@ grid-area: gridItem8;
   footer {
     background-color: #e5e5e5;
     text-align: center;
-    height: 600px;
+    height: 900px;
     margin-top:3400px;
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   
@@ -1143,8 +1141,7 @@ grid-area: gridItem8;
 }
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 1024px)  {
 
 
 
@@ -1704,7 +1701,7 @@ grid-area: gridItem8;
   footer {
     background-color:  #e5e5e5;
     text-align: center;
-    height: 900px;
+    height: 1000px;
     margin-top:2500px;
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   

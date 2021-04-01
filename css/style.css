@@ -14,14 +14,10 @@
 html {
   width: 100%;
   overflow-x: hidden;
-  overflow: auto !important;
-  max-height: 100% !important;
 }
 
 body {
   width: 100%;
-  overflow: auto !important;
-  max-height: 100% !important;
   overflow-x: hidden;
 }
 
@@ -940,7 +936,7 @@ footer .social-media__list li {
   footer {
     background-color: #e5e5e5;
     text-align: center;
-    height: 600px;
+    height: 900px;
     margin-top: 3400px;
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
@@ -979,7 +975,7 @@ footer .social-media__list li {
   /*---------------------------------------- */
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   html {
     width: 100%;
     overflow-x: hidden;
@@ -1443,7 +1439,7 @@ footer .social-media__list li {
   footer {
     background-color: #e5e5e5;
     text-align: center;
-    height: 900px;
+    height: 1000px;
     margin-top: 2500px;
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
