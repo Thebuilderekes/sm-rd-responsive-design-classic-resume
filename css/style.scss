@@ -10,16 +10,23 @@
   --font-color: #0000;
 }
 
-body {
-  width: 100%;
-  height: 100%;
-}
-
 html {
   width: 100%;
   overflow-x: hidden;
+
+ overflow: auto!important;
+max-height: 100% !important;
 }
 
+
+
+
+body {
+width: 100%;
+overflow: auto!important;
+max-height: 100% !important;
+overflow-x: hidden;
+}
  /*-----------------------------------------*/
 //    /*MAIN HEADER SECTION*/
 // /*-----------------------------------------*
@@ -538,7 +545,11 @@ footer {
 @media only screen and (min-width: 300px) and (max-width: 768px) {
 
 
-
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
 
   body {
     width: 100%;
@@ -662,6 +673,11 @@ footer {
     /*WRAPPER GRID SECTION*/
     /*-----------------------------------------*/
 
+
+    body {
+      width: 100%;
+      height: 100%;
+    }
 
   .wrapper {
     display: grid;
@@ -1081,8 +1097,8 @@ grid-area: gridItem8;
   footer {
     background-color: #e5e5e5;
     text-align: center;
-    height: 450px;
-    margin-top:3200px;
+    height: 600px;
+    margin-top:3400px;
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   
     .footer__heading {
@@ -1132,14 +1148,21 @@ grid-area: gridItem8;
 
 
 
+    html {
+      width: 100%;
+      overflow-x: hidden;
 
+     overflow: auto!important;
+    max-height: 100% !important;
+    }
 
 
 
     
   body {
     width: 100%;
-    height: 100%;
+    overflow: auto!important;
+    max-height: 100% !important;
     overflow-x: hidden;
   }
 
@@ -1679,9 +1702,9 @@ grid-area: gridItem8;
   /*   FOOTER SECTION                        */
   /*---------------------------------------- */
   footer {
-    background-color: #e5e5e5;
+    background-color:  #e5e5e5;
     text-align: center;
-    height: 450px;
+    height: 900px;
     margin-top:2500px;
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   
