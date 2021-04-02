@@ -42,24 +42,13 @@ overflow-x: hidden;
   /*NICE TO MEET YOU SECTION*/
   /*-----------------------------------------*/
 
-  .container {
-    /*centers in the container*/
-    text-align: center;
-
-  .circTxt {
-    font-family: "PT Sans Narrow", sans-serif;
-    // margin-top: 400px;
-    // margin-right: 400px;
-    /*allows for centering*/
-    display: inline-block;
-    position: absolute;
-    top: 370px;
-    right: 850px;
-    /*adjust as needed*/
-
-    color: var(--secondary-color);
-    font-weight: 900;
-  }
+  .circular-text {
+   width: 152px;
+   height:152px;
+   position: absolute;
+   top: 240px;
+   left: 460px;
+   
   }
   .resume__section--photo {
     position: absolute;
@@ -517,12 +506,11 @@ footer {
 
   .social-media__list {
     list-style: none;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     margin-top: 66px;
 
     li {
-      margin: 0 45px;
+      margin: 0 30px;
     }
   }
 }
@@ -564,38 +552,34 @@ footer {
     background-color: #e5e5e5;
     width: 100%;
     height: 747px;
-    display: grid;
-    grid-template-columns: 375px;
+  display: flex;
+  flex-direction: column;
 
     /*-----------------------------------------*/
     /*NICE TO MEET YOU SECTION*/
     /*-----------------------------------------*/
 
-    .container {
-      /*centers in the container*/
-      text-align: center;
-      height: 12px;
-      height: 900px;
+
+
+     .resume__photo  {
+      width: 200px;
+      height: 200px;
+    
+      margin-left: 100px;
+      margin-top: -180px;
+    
+    }
+    .circular-text {
+      width: 100px;
+      height:100px;
       position: absolute;
-      top:0;
+      top: -150px;
+      left: 230px;
+      
+     }
     
 
-    .circTxt {
-      font-family: "PT Sans Narrow", sans-serif;
-   
-      /*allows for centering*/
-      display: inline-block;
-      /*adjust as needed*/
-
-      color: var(--secondary-color);
-      font-weight: 400;
-     font-size: small;
-  height: 700px;
-  width: 1000px;
-  margin-left: 300px;
-    }
-
-  }
+  
 
 
 
@@ -604,22 +588,14 @@ footer {
     /*-----------------------------------------*/
 
 
-    img {
-      width: 160px;
-      height: 160px;
-      position: relative ;
-      left: 100px;
-      top: -100px;
-     
-     
-    }
+  
 
     .resume__section--details {
       .main__heading {
         position: absolute;
         height: 92px;
         width: 100px;
-        top: 304px;
+        top: 250px;
         left: 50px;
         font-family: "Playfair Display", serif;
         font-size: 56px;
@@ -650,7 +626,7 @@ footer {
         background-color: var(--primary-color);
         color: #fff;
         position: absolute;
-        top: 500px;
+        top: 430px;
         left: 75px;
         height: 60px;
         width: 225px;
@@ -1115,18 +1091,18 @@ grid-area: gridItem8;
       line-height: 46px;
       margin-top: 30px;
 
-      padding-bottom: 163px;
+    
     }
   
     .social-media__list {
       list-style: none;
-      display: flex;
-      justify-content: center;
+      display: inline-flex;
+      
       margin-top: 66px;
   
-      li {
-        margin: 0 45px;
-      }
+      // li {
+      //   padding: 0 30px;
+      // }
     }
   }
 
@@ -1171,67 +1147,63 @@ grid-area: gridItem8;
     background-color: #e5e5e5;
     width: 100%;
     height: 747px;
-    display: grid;
-    grid-template-columns: 375px;
+
+  .img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    
+    top:80px;
+   
+  }
+
+    .photos {
+      position: relative;
+      margin-top: 300px;
+    }
+
 
     /*-----------------------------------------*/
     /*NICE TO MEET YOU SECTION*/
-    /*-----------------------------------------*/
-
-    .container {
-      /*centers in the container*/
-      // text-align: center;
-      width: 50px;
-      height: 50px;
-      position:absolute;
-      top:0;
-      left: 300px;
-
-    .circTxt {
-      font-family: "PT Sans Narrow", sans-serif;
    
-      /*allows for centering*/
-      display: inline-block;
-      /*adjust as needed*/
-      font-size: small;
-      width: 350px;
-      height: 1000px;
-      color: var(--secondary-color);
-      font-weight: 900;
-      position:absolute;
-      top:0;
-      left: 0;
-      display: none;
+
+    .resume__photo  {
+      width: 200px;
+      height: 200px;
+    
+      margin-left: 300px;
+      margin-top: -400px;
+    
     }
-  }
-.round {
-    height: 50px;
+    .circular-text {
+      width: 100px;
+      height:100px;
+      position: absolute;
+      top: -600px;
+      left: 440px;
+      
+     }
+    
+
   
 
-}
-    
+
+
     /*-----------------------------------------*/
     /*NICE TO MEET YOU SECTION ENDS*/
     /*-----------------------------------------*/
 
 
-    img {
-      width: 200px;
-      height: 100px;
-      position: relative ;
-      left: 95px;
-    
-     
-     
-    }
+  
 
     .resume__section--details {
       .main__heading {
         position: absolute;
         height: 92px;
-        width: 482px;
-        top: 240px;
-        left: 144px;
+        width: 100px;
+        top: 250px;
+        left: 250px;
         font-family: "Playfair Display", serif;
         font-size: 56px;
         font-weight: 900;
@@ -1239,14 +1211,14 @@ grid-area: gridItem8;
 
         .first-name {
 
-          margin-left: 8px;
+          margin-left: 80px;
         }
       }
       .job {
         color: var(--secondary-color);
         position: absolute;
-        top: 230px;
-        left: 15px;
+        top: 270px;
+        left: 10px;
         text-align: center;
         font-size: 18px;
         font-family: "PT Sans Narrow", sans-serif;
@@ -1261,7 +1233,7 @@ grid-area: gridItem8;
         background-color: var(--primary-color);
         color: #fff;
         position: absolute;
-        top: 440px;
+        top: 430px;
         left: 280px;
         height: 60px;
         width: 225px;
@@ -1273,7 +1245,7 @@ grid-area: gridItem8;
       }
     }
   }
-    /*-----------------------------------------*/
+  /*-------------------------------------*/
     /*MAIN HEADER SECTION ENDS*/
     /*-----------------------------------------*/
 
@@ -1721,17 +1693,16 @@ grid-area: gridItem8;
       line-height: 46px;
       margin-top: 30px;
 
-      padding-bottom: 163px;
+      
     }
   
     .social-media__list {
       list-style: none;
-      display: flex;
-      justify-content: center;
+      display: inline-flex;
       margin-top: 66px;
   
       li {
-        margin: 0 45px;
+        margin: 0 20px;
       }
     }
   }
@@ -1744,5 +1715,6 @@ grid-area: gridItem8;
 
 
 
-}
 
+
+  }

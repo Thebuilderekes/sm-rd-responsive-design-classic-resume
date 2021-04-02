@@ -40,21 +40,12 @@ body {
   /*-----------------------------------------*/
 }
 
-.main__header .container {
-  /*centers in the container*/
-  text-align: center;
-}
-
-.main__header .container .circTxt {
-  font-family: "PT Sans Narrow", sans-serif;
-  /*allows for centering*/
-  display: inline-block;
+.main__header .circular-text {
+  width: 152px;
+  height: 152px;
   position: absolute;
-  top: 370px;
-  right: 850px;
-  /*adjust as needed*/
-  color: var(--secondary-color);
-  font-weight: 900;
+  top: 240px;
+  left: 460px;
 }
 
 .main__header .resume__section--photo {
@@ -456,17 +447,14 @@ footer .email {
 
 footer .social-media__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-top: 66px;
 }
 
 footer .social-media__list li {
-  margin: 0 45px;
+  margin: 0 30px;
 }
 
 /*----------------------------------------*/
@@ -493,10 +481,13 @@ footer .social-media__list li {
     background-color: #e5e5e5;
     width: 100%;
     height: 747px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 375px;
-        grid-template-columns: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     /*-----------------------------------------*/
     /*NICE TO MEET YOU SECTION*/
     /*-----------------------------------------*/
@@ -504,38 +495,24 @@ footer .social-media__list li {
     /*NICE TO MEET YOU SECTION ENDS*/
     /*-----------------------------------------*/
   }
-  .main__header .container {
-    /*centers in the container*/
-    text-align: center;
-    height: 12px;
-    height: 900px;
+  .main__header .resume__photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -180px;
+  }
+  .main__header .circular-text {
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 0;
-  }
-  .main__header .container .circTxt {
-    font-family: "PT Sans Narrow", sans-serif;
-    /*allows for centering*/
-    display: inline-block;
-    /*adjust as needed*/
-    color: var(--secondary-color);
-    font-weight: 400;
-    font-size: small;
-    height: 700px;
-    width: 1000px;
-    margin-left: 300px;
-  }
-  .main__header img {
-    width: 160px;
-    height: 160px;
-    position: relative;
-    left: 100px;
-    top: -100px;
+    top: -150px;
+    left: 230px;
   }
   .main__header .resume__section--details .main__heading {
     position: absolute;
     height: 92px;
     width: 100px;
-    top: 304px;
+    top: 250px;
     left: 50px;
     font-family: "Playfair Display", serif;
     font-size: 56px;
@@ -563,7 +540,7 @@ footer .social-media__list li {
     background-color: var(--primary-color);
     color: #fff;
     position: absolute;
-    top: 500px;
+    top: 430px;
     left: 75px;
     height: 60px;
     width: 225px;
@@ -955,20 +932,13 @@ footer .social-media__list li {
     font-weight: 900;
     line-height: 46px;
     margin-top: 30px;
-    padding-bottom: 163px;
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     margin-top: 66px;
-  }
-  footer .social-media__list li {
-    margin: 0 45px;
   }
   /*----------------------------------------*/
   /*   FOOTER SECTION ENDS                   */
@@ -995,68 +965,55 @@ footer .social-media__list li {
     background-color: #e5e5e5;
     width: 100%;
     height: 747px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 375px;
-        grid-template-columns: 375px;
     /*-----------------------------------------*/
     /*NICE TO MEET YOU SECTION*/
-    /*-----------------------------------------*/
     /*-----------------------------------------*/
     /*NICE TO MEET YOU SECTION ENDS*/
     /*-----------------------------------------*/
   }
-  .main__header .container {
-    /*centers in the container*/
-    width: 50px;
-    height: 50px;
+  .main__header .img {
     position: absolute;
-    top: 0;
-    left: 300px;
-  }
-  .main__header .container .circTxt {
-    font-family: "PT Sans Narrow", sans-serif;
-    /*allows for centering*/
-    display: inline-block;
-    /*adjust as needed*/
-    font-size: small;
-    width: 350px;
-    height: 1000px;
-    color: var(--secondary-color);
-    font-weight: 900;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-  }
-  .main__header .round {
-    height: 50px;
-  }
-  .main__header img {
     width: 200px;
-    height: 100px;
+    height: 200px;
+    margin-left: 100px;
+    top: 80px;
+  }
+  .main__header .photos {
     position: relative;
-    left: 95px;
+    margin-top: 300px;
+  }
+  .main__header .resume__photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -400px;
+  }
+  .main__header .circular-text {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -600px;
+    left: 440px;
   }
   .main__header .resume__section--details .main__heading {
     position: absolute;
     height: 92px;
-    width: 482px;
-    top: 240px;
-    left: 144px;
+    width: 100px;
+    top: 250px;
+    left: 250px;
     font-family: "Playfair Display", serif;
     font-size: 56px;
     font-weight: 900;
     text-align: center;
   }
   .main__header .resume__section--details .main__heading .first-name {
-    margin-left: 8px;
+    margin-left: 80px;
   }
   .main__header .resume__section--details .job {
     color: var(--secondary-color);
     position: absolute;
-    top: 230px;
-    left: 15px;
+    top: 270px;
+    left: 10px;
     text-align: center;
     font-size: 18px;
     font-family: "PT Sans Narrow", sans-serif;
@@ -1070,7 +1027,7 @@ footer .social-media__list li {
     background-color: var(--primary-color);
     color: #fff;
     position: absolute;
-    top: 440px;
+    top: 430px;
     left: 280px;
     height: 60px;
     width: 225px;
@@ -1080,7 +1037,7 @@ footer .social-media__list li {
     letter-spacing: 2px;
     border: hidden;
   }
-  /*-----------------------------------------*/
+  /*-------------------------------------*/
   /*MAIN HEADER SECTION ENDS*/
   /*-----------------------------------------*/
   /*-----------------------------------------*/
@@ -1458,20 +1415,16 @@ footer .social-media__list li {
     font-weight: 900;
     line-height: 46px;
     margin-top: 30px;
-    padding-bottom: 163px;
   }
   footer .social-media__list {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     margin-top: 66px;
   }
   footer .social-media__list li {
-    margin: 0 45px;
+    margin: 0 20px;
   }
   /*----------------------------------------*/
   /*   FOOTER SECTION ENDS                   */
