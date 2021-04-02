@@ -1,0 +1,1433 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0699a6;
+  --secondary-color: #9e8c6c;
+  --font-color: #0000;
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*-----------------------------------------*/
+.main__header {
+  background-color: #e5e5e5;
+  position: relative;
+  width: 100%;
+  height: 747px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 90%);
+          clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 90%);
+  /*-----------------------------------------*/
+  /*NICE TO MEET YOU SECTION*/
+  /*-----------------------------------------*/
+}
+
+.main__header .circular-text {
+  width: 152px;
+  height: 152px;
+  position: absolute;
+  top: 240px;
+  left: 460px;
+}
+
+.main__header .resume__section--photo {
+  position: absolute;
+  top: 180px;
+  left: 165px;
+}
+
+.main__header img {
+  width: 350px;
+  height: 350px;
+  margin-right: 280px;
+  margin-top: 180px;
+}
+
+.main__header .resume__section--details .main__heading {
+  position: absolute;
+  height: 224px;
+  width: 635px;
+  top: 100px;
+  left: 640px;
+  font-family: "Playfair Display", serif;
+  font-size: 126px;
+  font-weight: 900;
+}
+
+.main__header .resume__section--details .job {
+  color: var(--secondary-color);
+  position: absolute;
+  top: 180px;
+  left: 640px;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 24px;
+  width: 635px;
+}
+
+.main__header .resume__section--details .contact-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  position: absolute;
+  top: 478px;
+  left: 640px;
+  height: 60px;
+  width: 225px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: hidden;
+}
+
+/*-----------------------------------------*/
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px 635px;
+      grid-template-columns: 350px 635px;
+  -ms-grid-rows: 170px 170px;
+      grid-template-rows: 170px 170px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 125px;
+          column-gap: 125px;
+  /*----------------------------------------*/
+  /* skillset section                         */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* about me section                         */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* experience section                      */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* awards section                         */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* career traits section                  */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* VISUAL DESIGN UI WRAPPER SECTION        */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* VISUAL DESIGN UI WRAPPER SECTION ENDS   */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /*  recent works section                  */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /*  education section                     */
+  /*---------------------------------------- */
+}
+
+.wrapper .skillset .skillset__heading {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.wrapper .skillset .skillset__list li {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 34px;
+  list-style: none;
+}
+
+.wrapper .about {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 80px;
+}
+
+.wrapper .about:after {
+  display: block;
+  height: 10px;
+  width: 100px;
+  content: "";
+  background-color: var(--primary-color);
+  margin-top: 80px;
+  margin-bottom: 66px;
+}
+
+.wrapper .about .about__heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.wrapper .experience {
+  margin-top: 146px;
+  margin-bottom: 300px;
+}
+
+.wrapper .experience .experience__heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.wrapper .experience .experience__heading--frontend {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+}
+
+.wrapper .experience .experience__heading--frontend .experience__duration {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+
+.wrapper .experience .experience__paragraph {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.wrapper .awards {
+  width: 350px;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.wrapper .awards .awards__heading {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.wrapper .awards-list {
+  list-style: none;
+  text-decoration: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 34px;
+  list-style: none;
+}
+
+.wrapper .career .career__heading {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-top: 250px;
+}
+
+.wrapper .career .career__list {
+  list-style: none;
+}
+
+.wrapper .career .career__list .career__paragraph1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.wrapper .career .career__list .career__paragraph1 .bold {
+  font-weight: bold;
+}
+
+.wrapper .career .career__list .career__paragraph {
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.wrapper .career .career__list .career__paragraph .bold {
+  font-weight: bold;
+}
+
+.wrapper .visual_lead_ui {
+  margin-top: 40px;
+  /*----------------------------------------*/
+  /* visual design                           */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* lead design section                      */
+  /*---------------------------------------- */
+  /*----------------------------------------*/
+  /* ui design section                          */
+  /*---------------------------------------- */
+}
+
+.wrapper .visual_lead_ui .visual .visual__heading {
+  line-height: 24px;
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary-color);
+  letter-spacing: 1px;
+}
+
+.wrapper .visual_lead_ui .lead .lead__heading {
+  line-height: 24px;
+  margin-top: 66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary-color);
+  letter-spacing: 1px;
+}
+
+.wrapper .visual_lead_ui .ui:after {
+  display: block;
+  height: 10px;
+  width: 100px;
+  content: "";
+  background-color: var(--primary-color);
+  margin-top: 66px;
+}
+
+.wrapper .visual_lead_ui .ui .ui__heading {
+  line-height: 24px;
+  margin-top: 66px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary-color);
+  letter-spacing: 1px;
+}
+
+.wrapper .responsibilities {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.wrapper .timeline {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.wrapper .recent-works .recent-works__heading {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+.wrapper .recent-works .recent-works__list {
+  font-family: "PT Sans Narrow", sans-serif;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.wrapper .education {
+  line-height: 46px;
+}
+
+.wrapper .education .education__heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  margin-top: 180px;
+}
+
+.wrapper .education .education__timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .education .education__paragraph--1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+.wrapper .education .education__paragraph--2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*----------------------------------------*/
+/*   FOOTER SECTION                        */
+/*---------------------------------------- */
+footer {
+  background-color: #e5e5e5;
+  text-align: center;
+  height: 547px;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+}
+
+footer .footer__heading {
+  font-family: "Playfair Display", serif;
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 82px;
+  padding-top: 150px;
+}
+
+footer .email {
+  color: var(--primary-color);
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 46px;
+  margin-top: 40px;
+}
+
+footer .social-media__list {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 66px;
+}
+
+footer .social-media__list li {
+  margin: 0 30px;
+}
+
+/*----------------------------------------*/
+/*   FOOTER SECTION ENDS                   */
+/*---------------------------------------- */
+/*-----------------------------------------*/
+/*------------------------------------*/
+/*-----------------------------------------*/
+/*------------------------------------*/
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  /*MAIN HEADER SECTION*/
+  /*-----------------------------------------*/
+  .main__header {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 747px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /*-----------------------------------------*/
+    /*NICE TO MEET YOU SECTION*/
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*NICE TO MEET YOU SECTION ENDS*/
+    /*-----------------------------------------*/
+  }
+  .main__header .resume__photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -180px;
+  }
+  .main__header .circular-text {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -150px;
+    left: 230px;
+  }
+  .main__header .resume__section--details .main__heading {
+    position: absolute;
+    height: 92px;
+    width: 100px;
+    top: 250px;
+    left: 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .main__header .resume__section--details .main__heading .first-name {
+    margin-left: 80px;
+  }
+  .main__header .resume__section--details .job {
+    color: var(--secondary-color);
+    position: absolute;
+    top: 270px;
+    left: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: 24px;
+    width: 100%;
+  }
+  .main__header .resume__section--details .contact-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 75px;
+    height: 60px;
+    width: 225px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: hidden;
+  }
+  /*-----------------------------------------*/
+  /*MAIN HEADER SECTION ENDS*/
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  /*WRAPPER GRID SECTION*/
+  /*-----------------------------------------*/
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 335px;
+        grid-template-columns: 335px;
+    -ms-grid-rows: 240px;
+        grid-template-rows: 240px;
+    grid-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 1000px;
+        grid-template-areas: 'gridItem1'  'gridItem2'  'gridItem3' 'gridItem4'  'gridItem5'  'gridItem6'  'gridItem7'  'gridItem8';
+    /*-----------------------------------------*/
+    /*skillset section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*about section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*expereience section                        */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*Awards section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*career section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*VISUAL LEAD UI DESIGNER WRAPPER SECTION */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*VISUAL LEAD UI DESIGNER WRAPPER SECTION ENDS */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*recent works section*/
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*Education section*/
+    /*-----------------------------------------*/
+  }
+  .wrapper .about {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: gridItem1;
+  }
+  .wrapper .experience {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: gridItem2;
+  }
+  .wrapper .visual_lead_ui {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: gridItem3;
+  }
+  .wrapper .education {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: gridItem4;
+  }
+  .wrapper .skillset {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: gridItem5;
+  }
+  .wrapper .awards {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: gridItem6;
+  }
+  .wrapper .career {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    grid-area: gridItem7;
+  }
+  .wrapper .recent-works {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    grid-area: gridItem8;
+  }
+  .wrapper .skillset .skillset__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+  }
+  .wrapper .skillset .skillset__list li {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    list-style: none;
+  }
+  .wrapper .about {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 80px;
+  }
+  .wrapper .about:after {
+    display: block;
+    height: 10px;
+    width: 54px;
+    content: "";
+    background-color: var(--primary-color);
+    margin-top: 80px;
+    margin-bottom: 66px;
+  }
+  .wrapper .about .about__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .wrapper .experience {
+    padding-bottom: 10px;
+  }
+  .wrapper .experience .experience__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+  .wrapper .experience .experience__heading--frontend {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .experience .experience__heading--frontend .experience__duration {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+  }
+  .wrapper .experience .experience__paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+  .wrapper .awards {
+    width: 350px;
+    height: 100%;
+  }
+  .wrapper .awards .awards__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .wrapper .awards-list {
+    list-style: none;
+    text-decoration: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    list-style: none;
+  }
+  .wrapper .career {
+    margin-top: -150px;
+  }
+  .wrapper .career .career__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .wrapper .career .career__list {
+    list-style: none;
+  }
+  .wrapper .career .career__list .career__paragraph1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .wrapper .career .career__list .career__paragraph1 .bold {
+    font-weight: bold;
+  }
+  .wrapper .career .career__list .career__paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .wrapper .career .career__list .career__paragraph .bold {
+    font-weight: bold;
+  }
+  .wrapper .visual_lead_ui {
+    /*-----------------------------------------*/
+    /*Lead designer section*/
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*UI designer section*/
+    /*-----------------------------------------*/
+  }
+  .wrapper .visual_lead_ui .visual .visual__heading {
+    line-height: 24px;
+    padding-bottom: 20px;
+    margin-top: -280px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .visual_lead_ui .lead .lead__heading {
+    line-height: 24px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .visual_lead_ui .ui:after {
+    display: block;
+    height: 10px;
+    width: 54px;
+    content: "";
+    background-color: var(--primary-color);
+    margin-top: 66px;
+  }
+  .wrapper .visual_lead_ui .ui .ui__heading {
+    line-height: 24px;
+    margin-top: 66px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .responsibilities {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .wrapper .timeline {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+  .wrapper .recent-works .recent-works__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-top: 60px;
+  }
+  .wrapper .recent-works .recent-works__list {
+    font-family: "PT Sans Narrow", sans-serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  .wrapper .education {
+    line-height: 46px;
+  }
+  .wrapper .education .education__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 40px;
+  }
+  .wrapper .education .education__timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .education .education__paragraph--1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    width: 333px;
+  }
+  .wrapper .education .education__paragraph--2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 224px;
+  }
+  /*-----------------------------------------*/
+  /*WRAPPER SECTION ENDS*/
+  /*-----------------------------------------*/
+  /*----------------------------------------*/
+  /*   FOOTER SECTION                        */
+  /*---------------------------------------- */
+  footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    height: 900px;
+    margin-top: 3400px;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  }
+  footer .footer__heading {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 82px;
+    padding-top: 150px;
+  }
+  footer .email {
+    color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 46px;
+    margin-top: 30px;
+  }
+  footer .social-media__list {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 66px;
+  }
+  /*----------------------------------------*/
+  /*   FOOTER SECTION ENDS                   */
+  /*---------------------------------------- */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  html {
+    width: 100%;
+    overflow-x: hidden;
+    overflow: auto !important;
+    max-height: 100% !important;
+  }
+  body {
+    width: 100%;
+    overflow: auto !important;
+    max-height: 100% !important;
+    overflow-x: hidden;
+  }
+  /*-----------------------------------------*/
+  /*MAIN HEADER SECTION*/
+  /*-----------------------------------------*/
+  .main__header {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 747px;
+    /*-----------------------------------------*/
+    /*NICE TO MEET YOU SECTION*/
+    /*-----------------------------------------*/
+    /*NICE TO MEET YOU SECTION ENDS*/
+    /*-----------------------------------------*/
+  }
+  .main__header .img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    top: 80px;
+  }
+  .main__header .photos {
+    position: relative;
+    margin-top: 300px;
+  }
+  .main__header .resume__photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: -400px;
+  }
+  .main__header .circular-text {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -600px;
+    left: 440px;
+  }
+  .main__header .resume__section--details .main__heading {
+    position: absolute;
+    height: 92px;
+    width: 100px;
+    top: 250px;
+    left: 250px;
+    font-family: "Playfair Display", serif;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .main__header .resume__section--details .main__heading .first-name {
+    margin-left: 80px;
+  }
+  .main__header .resume__section--details .job {
+    color: var(--secondary-color);
+    position: absolute;
+    top: 270px;
+    left: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    height: 24px;
+    width: 100%;
+  }
+  .main__header .resume__section--details .contact-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 280px;
+    height: 60px;
+    width: 225px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: hidden;
+  }
+  /*-------------------------------------*/
+  /*MAIN HEADER SECTION ENDS*/
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  /*WRAPPER GRID SECTION*/
+  /*-----------------------------------------*/
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 482px;
+        grid-template-columns: 482px;
+    -ms-grid-rows: 240px;
+        grid-template-rows: 240px;
+    grid-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 1000px;
+        grid-template-areas: 'gridItem1'  'gridItem2'  'gridItem3' 'gridItem4'  'gridItem5'  'gridItem6'  'gridItem7'  'gridItem8';
+    /*-----------------------------------------*/
+    /*skillset section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*about section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*expereience section                        */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*Awards section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*career section                           */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*VISUAL LEAD UI DESIGNER WRAPPER SECTION */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*VISUAL LEAD UI DESIGNER WRAPPER SECTION ENDS */
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*recent works section*/
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*Education section*/
+    /*-----------------------------------------*/
+  }
+  .wrapper .about {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: gridItem1;
+  }
+  .wrapper .experience {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: gridItem2;
+  }
+  .wrapper .visual_lead_ui {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: gridItem3;
+  }
+  .wrapper .education {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: gridItem4;
+  }
+  .wrapper .skillset {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: gridItem5;
+  }
+  .wrapper .awards {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: gridItem6;
+  }
+  .wrapper .career {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    grid-area: gridItem7;
+  }
+  .wrapper .recent-works {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    grid-area: gridItem8;
+  }
+  .wrapper .skillset .skillset__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+  }
+  .wrapper .skillset .skillset__list li {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    list-style: none;
+  }
+  .wrapper .about {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 80px;
+  }
+  .wrapper .about:after {
+    display: block;
+    height: 10px;
+    width: 54px;
+    content: "";
+    background-color: var(--primary-color);
+    margin-top: 80px;
+    margin-bottom: 66px;
+  }
+  .wrapper .about .about__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .wrapper .experience {
+    padding-bottom: 10px;
+  }
+  .wrapper .experience .experience__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+  .wrapper .experience .experience__heading--frontend {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .experience .experience__heading--frontend .experience__duration {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+  }
+  .wrapper .experience .experience__paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+  }
+  .wrapper .awards {
+    width: 350px;
+    height: 100%;
+  }
+  .wrapper .awards .awards__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .wrapper .awards-list {
+    list-style: none;
+    text-decoration: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    list-style: none;
+  }
+  .wrapper .career {
+    margin-top: -150px;
+  }
+  .wrapper .career .career__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+  }
+  .wrapper .career .career__list {
+    list-style: none;
+  }
+  .wrapper .career .career__list .career__paragraph1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .wrapper .career .career__list .career__paragraph1 .bold {
+    font-weight: bold;
+  }
+  .wrapper .career .career__list .career__paragraph {
+    font-family: "PT Sans Narrow", sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .wrapper .career .career__list .career__paragraph .bold {
+    font-weight: bold;
+  }
+  .wrapper .visual_lead_ui {
+    /*-----------------------------------------*/
+    /*Lead designer section*/
+    /*-----------------------------------------*/
+    /*-----------------------------------------*/
+    /*UI designer section*/
+    /*-----------------------------------------*/
+  }
+  .wrapper .visual_lead_ui .visual .visual__heading {
+    line-height: 24px;
+    padding-bottom: 20px;
+    margin-top: -280px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .visual_lead_ui .lead .lead__heading {
+    line-height: 24px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .visual_lead_ui .ui:after {
+    display: block;
+    height: 10px;
+    width: 54px;
+    content: "";
+    background-color: var(--primary-color);
+    margin-top: 66px;
+  }
+  .wrapper .visual_lead_ui .ui .ui__heading {
+    line-height: 24px;
+    margin-top: 66px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+  }
+  .wrapper .responsibilities {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .wrapper .timeline {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+  .wrapper .recent-works .recent-works__heading {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-top: 60px;
+  }
+  .wrapper .recent-works .recent-works__list {
+    font-family: "PT Sans Narrow", sans-serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+  }
+  .wrapper .education {
+    line-height: 46px;
+  }
+  .wrapper .education .education__heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 40px;
+  }
+  .wrapper .education .education__timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrapper .education .education__paragraph--1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--secondary-color);
+    width: 333px;
+  }
+  .wrapper .education .education__paragraph--2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 224px;
+  }
+  /*-----------------------------------------*/
+  /*WRAPPER SECTION ENDS*/
+  /*-----------------------------------------*/
+  /*----------------------------------------*/
+  /*   FOOTER SECTION                        */
+  /*---------------------------------------- */
+  footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    height: 1000px;
+    margin-top: 2500px;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  }
+  footer .footer__heading {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 82px;
+    padding-top: 150px;
+  }
+  footer .email {
+    color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 46px;
+    margin-top: 30px;
+  }
+  footer .social-media__list {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 66px;
+  }
+  footer .social-media__list li {
+    margin: 0 20px;
+  }
+  /*----------------------------------------*/
+  /*   FOOTER SECTION ENDS                   */
+  /*---------------------------------------- */
+}
+/*# sourceMappingURL=style.css.map */
